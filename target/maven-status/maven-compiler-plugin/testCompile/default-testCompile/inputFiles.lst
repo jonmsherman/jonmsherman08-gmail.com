@@ -1,0 +1,4 @@
+/Users/jsherman/Developer/spring-course/sfg-di/src/test/java/guru/springframework/sfgdi/SfgDiApplicationTests.java
+/Users/jsherman/Developer/spring-course/sfg-di/src/test/java/guru/springframework/sfgdi/controllers/ConstructorInjectedControllerTest.java
+/Users/jsherman/Developer/spring-course/sfg-di/src/test/java/guru/springframework/sfgdi/controllers/PropertyInjectedControllerTest.java
+/Users/jsherman/Developer/spring-course/sfg-di/src/test/java/guru/springframework/sfgdi/controllers/SetterBasedControllerTest.java

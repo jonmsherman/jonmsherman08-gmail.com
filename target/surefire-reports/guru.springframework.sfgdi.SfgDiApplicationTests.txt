@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: guru.springframework.sfgdi.SfgDiApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.376 s <<< FAILURE! - in guru.springframework.sfgdi.SfgDiApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'i18nController' defined in file [/Users/jsherman/Developer/spring-course/sfg-di/target/classes/guru/springframework/sfgdi/controllers/I18nController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'guru.springframework.sfgdi.services.GreetingService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value="i18nService")}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'guru.springframework.sfgdi.services.GreetingService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value="i18nService")}
+
